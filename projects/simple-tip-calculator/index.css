@@ -1,0 +1,32 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.user-input{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#bill-input,#tip-input{
+    border: 1px solid purple;
+    border-radius: 8px;
+}
+#submit-btn{
+    margin-top: 10px;
+    margin-left: 6em;
+    border: 1px solid purple;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight:bold;
+    transition: 0.3s;
+
+}
+#submit-btn:hover{
+    background-color: rgb(220, 218, 218);
+
+}
+#submit-btn:active{
+    transform: scale(0.95);
+}

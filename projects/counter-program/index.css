@@ -1,0 +1,33 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 5px;
+    font-size: 1.3em;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background-color: rgb(35, 35, 131);
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: rgb(35, 35, 131);
+}
+.btns-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.program-counter{
+    display: grid;
+    place-items: center;
+}
+p{
+    font-size: 5em;
+}
