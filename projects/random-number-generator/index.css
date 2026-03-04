@@ -1,0 +1,12 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 2em;
+
+}
+.roll-btn{
+    padding: 10px 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+
+}
