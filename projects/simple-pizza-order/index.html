@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="order-container">
+        <h1>🍕 Pizza Order</h1>
+        <div class="size-chosing-container">
+            <p style="font-size: 20px;">choose your size :</p>
+            <div>
+                <input type="radio" id="small-pizza" name="size">
+                <label for="small-pizza">small</label>
+            </div>
+            <div>
+                <input type="radio" id="Medium" name="size">
+                <label for="Medium">Medium</label>
+            </div>
+            <div>
+                <input type="radio" id="large-pizza" name="size">
+                <label for="large">large</label>
+            </div>
+        </div>
+
+        <div class="toppings-choosing">
+            <p style="font-size: 20px;">choose your toppings :</p>
+            <div>
+                <input type="checkbox" id="cheese-pizza" name="toppings">
+                <label for="cheese-pizza">Cheese</label>
+            </div>
+            <div>
+                <input type="checkbox" id="pepperoni-pizza" name="toppings">
+                <label for="pepperoni">Pepperoni</label>
+            </div>
+            <div>
+                <input type="checkbox" id="mushrooms-pizza" name="toppings">
+                <label for="mushrooms-pizza">Mushrooms</label>
+            </div>
+        </div>
+        <button class="order-btn" id="order-btn">Order Now</button>
+        <p id="result-text"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
